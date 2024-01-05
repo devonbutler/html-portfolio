@@ -1,1 +1,23 @@
-
+.red {
+    background-color: #c8102e;
+    position: relative;
+    width: 900 px;
+    height: 681 px;
+    z-index: 0;
+}
+.vertical {
+    position: absolute;
+    left: 292 px;
+    background-color: white;
+    width: 97 px;
+    height:681 px;
+    z-index: 1;
+}
+.horizontal {
+    position: absolute;
+    background-color:white;
+    top: 292 px;    
+    width: 900 px;
+    height: 97 px;
+    z-index: 2;
+}
